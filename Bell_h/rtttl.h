@@ -1,3 +1,15 @@
+// A fun sketch to demonstrate the use of the Tone library.
+// By Brett Hagman
+// bhagman@roguerobotics.com
+// www.roguerobotics.com
+
+// To mix the output of the signals to output to a small speaker (i.e. 8 Ohms or higher),
+// simply use 1K Ohm resistors from each output pin and tie them together at the speaker.
+// Don't forget to connect the other side of the speaker to ground!
+
+// You can get more RTTTL (RingTone Text Transfer Language) songs from
+// http://code.google.com/p/rogue-code/wiki/ToneLibraryDocumentation
+
 #pragma once
 
 #if defined(ARDUINO) && ARDUINO >= 100
